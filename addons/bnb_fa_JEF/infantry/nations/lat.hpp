@@ -1,0 +1,42 @@
+	
+BNB_FA_Units_Multicam(Lat,BNB_FA_Lat_Faction,BNB_FA_Lat_Multicam,BNB_FA_Lat_Rifleman_Multicam_pack,BNB_FA_Lat_IC_Multicam_pack,BNB_FA_Lat_Medic_Multicam_pack)
+BNB_FA_Units_Winter(Lat,BNB_FA_Lat_Faction,BNB_FA_Lat_Winter,BNB_FA_Lat_Rifleman_Winter_pack,BNB_FA_Lat_IC_Winter_pack,BNB_FA_Lat_Medic_Winter_pack)
+	
+
+
+#undef BNB_FA_Mag
+#undef BNB_FA_PistolMag
+#undef BNB_FA_Rifle
+#undef BNB_FA_RifleGL
+#undef BNB_FA_Pistol
+#undef BNB_FA_Des_Uniform
+#undef BNB_FA_Mul_Uniform
+#undef BNB_FA_Woo_Uniform
+#undef BNB_FA_Win_Uniform
+#undef BNB_FA_Des_Helmet
+#undef BNB_FA_Mul_Helmet
+#undef BNB_FA_Woo_Helmet
+#undef BNB_FA_Win_Helmet
+#undef BNB_FA_Des_Vest
+#undef BNB_FA_Mul_Vest
+#undef BNB_FA_Woo_Vest
+#undef BNB_FA_Win_Vest
+#undef BNB_FA_Des_Backpack_Rifleman
+#undef BNB_FA_Mul_Backpack_Rifleman
+#undef BNB_FA_Woo_Backpack_Rifleman
+#undef BNB_FA_Win_Backpack_Rifleman
+#undef BNB_FA_Des_Backpack_Medic
+#undef BNB_FA_Mul_Backpack_Medic
+#undef BNB_FA_Woo_Backpack_Medic
+#undef BNB_FA_Win_Backpack_Medic
+#undef BNB_FA_Des_Backpack_IC
+#undef BNB_FA_Mul_Backpack_IC
+#undef BNB_FA_Woo_Backpack_IC
+#undef BNB_FA_Win_Backpack_IC
+#undef BNB_FA_TransportMagazines
+#undef BNB_FA_TransportMagazines_IC
+#undef BNB_FA_TransportMagazines_Medic
+#undef BNB_FA_Magazines
+#undef BNB_FA_Magazines_IC
+#undef BNB_FA_Magazines_Medic
+

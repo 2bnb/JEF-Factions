@@ -1,0 +1,72 @@
+class CfgFactionClasses 
+{
+	// BNB_FA_FactionClasses(natCode,unitNation)
+	BNB_FA_FactionClasses(UK,JEF UK)
+	BNB_FA_FactionClasses(Est,JEF Estonia)
+	BNB_FA_FactionClasses(Lat,JEF Latvia)
+	BNB_FA_FactionClasses(Lit,JEF Lithuania)
+	BNB_FA_FactionClasses(Fin,JEF Finland)
+	BNB_FA_FactionClasses(Den,JEF Denmark)
+	BNB_FA_FactionClasses(Nor,JEF Norway)
+	BNB_FA_FactionClasses(Swe,JEF Sweden)
+};
+
+class CfgEditorSubcategories 
+{
+	// BNB_FA_EditorSubcategories(natCode,desName,mulName,winName,wooName) 
+	BNB_FA_EditorSubcategories(UK,UK Desert,UK Multicam,UK Winter,UK Woodland)
+	BNB_FA_EditorSubcategories(Est,Estonia Desert,Estonia Multicam,Estonia Winter,Estonia Woodland)
+	BNB_FA_EditorSubcategories(Lat,Latvia Desert,Latvia Multicam,Latvia Winter,Latvia Woodland)
+	BNB_FA_EditorSubcategories(Lit,Lithuania Desert,Lithuania Multicam,Lithuania Winter,Lithuania Woodland)
+	BNB_FA_EditorSubcategories(Fin,Finland Desert,Finland Multicam,Finland Winter,Finland Woodland)
+	BNB_FA_EditorSubcategories(Den,Denmark Desert,Denmark Multicam,Denmark Winter,Denmark Woodland)
+	BNB_FA_EditorSubcategories(Nor,Norway Desert,Norway Multicam,Norway Winter,Norway Woodland)
+	BNB_FA_EditorSubcategories(Swe,Sweden Desert,Sweden Multicam,Sweden Winter,Sweden Woodland)
+
+};
+
+class CfgGroups 
+{
+	class WEST 
+	{
+		name="BLUFOR";
+		class BNB_FA_Group
+		{
+		name = "Joint Expeditionary Force";
+			
+			
+			// BNB_FA_Sections(facCode,groupName,sectionClass,cmdClass,zeusClass,defaultClass,riflemanClass,icClass,medicClass)
+			BNB_FA_Sections(BNB_FA_UK_Des,JEF UK Desert,BNB_FA_UK_Section_Des,BNB_FA_UK_Command_Des,BNB_FA_UK_Zeus_Des,BNB_FA_UK_Default_Des,BNB_FA_UK_Rifleman_Des,BNB_FA_UK_IC_Des,BNB_FA_UK_Medic_Des)
+			BNB_FA_Sections(BNB_FA_UK_Mul,JEF UK Multicam,BNB_FA_UK_Section_Mul,BNB_FA_UK_Command_Mul,BNB_FA_UK_Zeus_Mul,BNB_FA_UK_Default_Mul,BNB_FA_UK_Rifleman_Mul,BNB_FA_UK_IC_Mul,BNB_FA_UK_Medic_Mul)
+			BNB_FA_Sections(BNB_FA_UK_Woo,JEF UK Woodland,BNB_FA_UK_Section_Woo,BNB_FA_UK_Command_Woo,BNB_FA_UK_Zeus_Woo,BNB_FA_UK_Default_Woo,BNB_FA_UK_Rifleman_Woo,BNB_FA_UK_IC_Woo,BNB_FA_UK_Medic_Woo)
+			BNB_FA_Sections(BNB_FA_UK_Win,JEF UK Winter,BNB_FA_UK_Section_Win,BNB_FA_UK_Command_Win,BNB_FA_UK_Zeus_Win,BNB_FA_UK_Default_Win,BNB_FA_UK_Rifleman_Win,BNB_FA_UK_IC_Win,BNB_FA_UK_Medic_Win)
+			BNB_FA_Sections(BNB_FA_Est_Des,JEF Estonia Desert,BNB_FA_Est_Section_Des,BNB_FA_Est_Command_Des,BNB_FA_Est_Zeus_Des,BNB_FA_Est_Default_Des,BNB_FA_Est_Rifleman_Des,BNB_FA_Est_IC_Des,BNB_FA_Est_Medic_Des)
+			BNB_FA_Sections(BNB_FA_Est_Mul,JEF Estonia Multicam,BNB_FA_Est_Section_Mul,BNB_FA_Est_Command_Mul,BNB_FA_Est_Zeus_Mul,BNB_FA_Est_Default_Mul,BNB_FA_Est_Rifleman_Mul,BNB_FA_Est_IC_Mul,BNB_FA_Est_Medic_Mul)
+			BNB_FA_Sections(BNB_FA_Est_Win,JEF Estonia Winter,BNB_FA_Est_Section_Win,BNB_FA_Est_Command_Win,BNB_FA_Est_Zeus_Win,BNB_FA_Est_Default_Win,BNB_FA_Est_Rifleman_Win,BNB_FA_Est_IC_Win,BNB_FA_Est_Medic_Win)
+			BNB_FA_Sections(BNB_FA_Est_Woo,JEF Estonia Woodland,BNB_FA_Est_Section_Woo,BNB_FA_Est_Command_Woo,BNB_FA_Est_Zeus_Woo,BNB_FA_Est_Default_Woo,BNB_FA_Est_Rifleman_Woo,BNB_FA_Est_IC_Woo,BNB_FA_Est_Medic_Woo)
+			BNB_FA_Sections(BNB_FA_Lat_Mul,JEF Latvia Multicam,BNB_FA_Lat_Section_Mul,BNB_FA_Lat_Command_Mul,BNB_FA_Lat_Zeus_Mul,BNB_FA_Lat_Default_Mul,BNB_FA_Lat_Rifleman_Mul,BNB_FA_Lat_IC_Mul,BNB_FA_Lat_Medic_Mul)
+			BNB_FA_Sections(BNB_FA_Lat_Win,JEF Latvia Winter,BNB_FA_Lat_Section_Win,BNB_FA_Lat_Command_Win,BNB_FA_Lat_Zeus_Win,BNB_FA_Lat_Default_Win,BNB_FA_Lat_Rifleman_Win,BNB_FA_Lat_IC_Win,BNB_FA_Lat_Medic_Win)
+			BNB_FA_Sections(BNB_FA_Lit_Des,JEF Lithuania Desert,BNB_FA_Lit_Section_Des,BNB_FA_Lit_Command_Des,BNB_FA_Lit_Zeus_Des,BNB_FA_Lit_Default_Des,BNB_FA_Lit_Rifleman_Des,BNB_FA_Lit_IC_Des,BNB_FA_Lit_Medic_Des)
+			BNB_FA_Sections(BNB_FA_Lit_Mul,JEF Lithuania Multicam,BNB_FA_Lit_Section_Mul,BNB_FA_Lit_Command_Mul,BNB_FA_Lit_Zeus_Mul,BNB_FA_Lit_Default_Mul,BNB_FA_Lit_Rifleman_Mul,BNB_FA_Lit_IC_Mul,BNB_FA_Lit_Medic_Mul)
+			BNB_FA_Sections(BNB_FA_Lit_Win,JEF Lithuania Winter,BNB_FA_Lit_Section_Win,BNB_FA_Lit_Command_Win,BNB_FA_Lit_Zeus_Win,BNB_FA_Lit_Default_Win,BNB_FA_Lit_Rifleman_Win,BNB_FA_Lit_IC_Win,BNB_FA_Lit_Medic_Win)
+			BNB_FA_Sections(BNB_FA_Lit_Woo,JEF Lithuania Woodland,BNB_FA_Lit_Section_Woo,BNB_FA_Lit_Command_Woo,BNB_FA_Lit_Zeus_Woo,BNB_FA_Lit_Default_Woo,BNB_FA_Lit_Rifleman_Woo,BNB_FA_Lit_IC_Woo,BNB_FA_Lit_Medic_Woo)
+			BNB_FA_Sections(BNB_FA_Fin_Des,JEF Finland Desert,BNB_FA_Fin_Section_Des,BNB_FA_Fin_Command_Des,BNB_FA_Fin_Zeus_Des,BNB_FA_Fin_Default_Des,BNB_FA_Fin_Rifleman_Des,BNB_FA_Fin_IC_Des,BNB_FA_Fin_Medic_Des)
+			BNB_FA_Sections(BNB_FA_Fin_Mul,JEF Finland Multicam,BNB_FA_Fin_Section_Mul,BNB_FA_Fin_Command_Mul,BNB_FA_Fin_Zeus_Mul,BNB_FA_Fin_Default_Mul,BNB_FA_Fin_Rifleman_Mul,BNB_FA_Fin_IC_Mul,BNB_FA_Fin_Medic_Mul)
+			BNB_FA_Sections(BNB_FA_Fin_Win,JEF Finland Winter,BNB_FA_Fin_Section_Win,BNB_FA_Fin_Command_Win,BNB_FA_Fin_Zeus_Win,BNB_FA_Fin_Default_Win,BNB_FA_Fin_Rifleman_Win,BNB_FA_Fin_IC_Win,BNB_FA_Fin_Medic_Win)
+			BNB_FA_Sections(BNB_FA_Fin_Woo,JEF Finland Woodland,BNB_FA_Fin_Section_Woo,BNB_FA_Fin_Command_Woo,BNB_FA_Fin_Zeus_Woo,BNB_FA_Fin_Default_Woo,BNB_FA_Fin_Rifleman_Woo,BNB_FA_Fin_IC_Woo,BNB_FA_Fin_Medic_Woo)
+			BNB_FA_Sections(BNB_FA_Den_Des,JEF Denmark Desert,BNB_FA_Den_Section_Des,BNB_FA_Den_Command_Des,BNB_FA_Den_Zeus_Des,BNB_FA_Den_Default_Des,BNB_FA_Den_Rifleman_Des,BNB_FA_Den_IC_Des,BNB_FA_Den_Medic_Des)
+			BNB_FA_Sections(BNB_FA_Den_Mul,JEF Denmark Multicam,BNB_FA_Den_Section_Mul,BNB_FA_Den_Command_Mul,BNB_FA_Den_Zeus_Mul,BNB_FA_Den_Default_Mul,BNB_FA_Den_Rifleman_Mul,BNB_FA_Den_IC_Mul,BNB_FA_Den_Medic_Mul)
+			BNB_FA_Sections(BNB_FA_Den_Win,JEF Denmark Winter,BNB_FA_Den_Section_Win,BNB_FA_Den_Command_Win,BNB_FA_Den_Zeus_Win,BNB_FA_Den_Default_Win,BNB_FA_Den_Rifleman_Win,BNB_FA_Den_IC_Win,BNB_FA_Den_Medic_Win)
+			BNB_FA_Sections(BNB_FA_Den_Woo,JEF Denmark Woodland,BNB_FA_Den_Section_Woo,BNB_FA_Den_Command_Woo,BNB_FA_Den_Zeus_Woo,BNB_FA_Den_Default_Woo,BNB_FA_Den_Rifleman_Woo,BNB_FA_Den_IC_Woo,BNB_FA_Den_Medic_Woo)
+			BNB_FA_Sections(BNB_FA_Nor_Des,JEF Norway Desert,BNB_FA_Nor_Section_Des,BNB_FA_Nor_Command_Des,BNB_FA_Nor_Zeus_Des,BNB_FA_Nor_Default_Des,BNB_FA_Nor_Rifleman_Des,BNB_FA_Nor_IC_Des,BNB_FA_Nor_Medic_Des)
+			BNB_FA_Sections(BNB_FA_Nor_Mul,JEF Norway Multicam,BNB_FA_Nor_Section_Mul,BNB_FA_Nor_Command_Mul,BNB_FA_Nor_Zeus_Mul,BNB_FA_Nor_Default_Mul,BNB_FA_Nor_Rifleman_Mul,BNB_FA_Nor_IC_Mul,BNB_FA_Nor_Medic_Mul)
+			BNB_FA_Sections(BNB_FA_Nor_Win,JEF Norway Winter,BNB_FA_Nor_Section_Win,BNB_FA_Nor_Command_Win,BNB_FA_Nor_Zeus_Win,BNB_FA_Nor_Default_Des,BNB_FA_Nor_Rifleman_Win,BNB_FA_Nor_IC_Win,BNB_FA_Nor_Medic_Win)
+			BNB_FA_Sections(BNB_FA_Nor_Woo,JEF Norway Woodland,BNB_FA_Nor_Section_Woo,BNB_FA_Nor_Command_Woo,BNB_FA_Nor_Zeus_Woo,BNB_FA_Nor_Default_Woo,BNB_FA_Nor_Rifleman_Woo,BNB_FA_Nor_IC_Woo,BNB_FA_Nor_Medic_Woo)
+			BNB_FA_Sections(BNB_FA_Swe_Mul,JEF Sweden Multicam,BNB_FA_Swe_Section_Mul,BNB_FA_Swe_Command_Mul,BNB_FA_Swe_Zeus_Mul,BNB_FA_Swe_Default_Mul,BNB_FA_Swe_Rifleman_Mul,BNB_FA_Swe_IC_Mul,BNB_FA_Swe_Medic_Mul)
+			BNB_FA_Sections(BNB_FA_Swe_Win,JEF Sweden Winter,BNB_FA_Swe_Section_Win,BNB_FA_Swe_Command_Win,BNB_FA_Swe_Zeus_Win,BNB_FA_Swe_Default_Win,BNB_FA_Swe_Rifleman_Win,BNB_FA_Swe_IC_Win,BNB_FA_Swe_Medic_Win)
+			BNB_FA_Sections(BNB_FA_Swe_Woo,JEF Sweden Woodland,BNB_FA_Swe_Section_Woo,BNB_FA_Swe_Command_Woo,BNB_FA_Swe_Zeus_Woo,BNB_FA_Swe_Default_Woo,BNB_FA_Swe_Rifleman_Woo,BNB_FA_Swe_IC_Woo,BNB_FA_Swe_Medic_Woo)
+			
+		};	
+	};
+};
+
