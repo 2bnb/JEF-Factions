@@ -28,24 +28,39 @@ class CfgVehicles {
 	class PB_BP01_M98;
 	class PB_BP01_M90;
 	class PB_RT1523BIG_M90;
-
-
-	#include "\x\bnb_fa\JEF\infantry\configs\cfgEst.hpp"
-	#include "\x\bnb_fa\JEF\infantry\nations\est.hpp"
-	#include "\x\bnb_fa\JEF\infantry\configs\cfgLat.hpp"
-	#include "\x\bnb_fa\JEF\infantry\nations\lat.hpp"
-	#include "\x\bnb_fa\JEF\infantry\configs\cfgLit.hpp"
-	#include "\x\bnb_fa\JEF\infantry\nations\lit.hpp"
-	#include "\x\bnb_fa\JEF\infantry\configs\cfgFin.hpp"
-	#include "\x\bnb_fa\JEF\infantry\nations\fin.hpp"
-	#include "\x\bnb_fa\JEF\infantry\configs\cfgDen.hpp"
-	#include "\x\bnb_fa\JEF\infantry\nations\den.hpp"
-	#include "\x\bnb_fa\JEF\infantry\configs\cfgNor.hpp"
-	#include "\x\bnb_fa\JEF\infantry\nations\nor.hpp"
-	#include "\x\bnb_fa\JEF\infantry\configs\cfgSwe.hpp"
-	#include "\x\bnb_fa\JEF\infantry\nations\swe.hpp"
+	class UK3CB_BAF_B_Bergen_DDPM_Rifleman_A;
+	class UK3CB_BAF_B_Bergen_DDPM_JTAC_H_A;
+	class UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B;
+	class UK3CB_BAF_B_Bergen_MTP_JTAC_H_A;
+	class UK3CB_BAF_B_Bergen_Arctic_Rifleman_A;
+	class UK3CB_BAF_B_Bergen_Arctic_JTAC_A;
+	class UK3CB_BAF_B_Bergen_DPMW_Rifleman_A;
+	class UK3CB_BAF_B_Bergen_DPMW_JTAC_H_A;
+	
 	#include "\x\bnb_fa\JEF\infantry\configs\cfgUK.hpp"
-	BNB_FA_UK_Classes
 	#include "\x\bnb_fa\JEF\infantry\nations\uk.hpp"
+	#include "\x\bnb_fa\JEF\infantry\configs\cfgUndef.hpp"
+	#include "\x\bnb_fa\JEF\infantry\configs\cfgLat.hpp"
+	#include "\x\bnb_fa\JEF\infantry\nations\Lat.hpp"
+	#include "\x\bnb_fa\JEF\infantry\configs\cfgUndef.hpp"	
+	#include "\x\bnb_fa\JEF\infantry\configs\cfgEst.hpp"
+	#include "\x\bnb_fa\JEF\infantry\nations\Est.hpp"
+	#include "\x\bnb_fa\JEF\infantry\configs\cfgUndef.hpp"			
+	#include "\x\bnb_fa\JEF\infantry\configs\cfgLit.hpp"
+	#include "\x\bnb_fa\JEF\infantry\nations\Lit.hpp"
+	#include "\x\bnb_fa\JEF\infantry\configs\cfgUndef.hpp"	
+	#include "\x\bnb_fa\JEF\infantry\configs\cfgNor.hpp"
+	#include "\x\bnb_fa\JEF\infantry\nations\Nor.hpp"
+	#include "\x\bnb_fa\JEF\infantry\configs\cfgUndef.hpp"			
+	#include "\x\bnb_fa\JEF\infantry\configs\cfgSwe.hpp"
+	#include "\x\bnb_fa\JEF\infantry\nations\Swe.hpp"
+	#include "\x\bnb_fa\JEF\infantry\configs\cfgUndef.hpp"	
+	#include "\x\bnb_fa\JEF\infantry\configs\cfgDen.hpp"
+	#include "\x\bnb_fa\JEF\infantry\nations\Den.hpp"
+	#include "\x\bnb_fa\JEF\infantry\configs\cfgUndef.hpp"			
+	#include "\x\bnb_fa\JEF\infantry\configs\cfgFin.hpp"
+	#include "\x\bnb_fa\JEF\infantry\nations\Fin.hpp"
+	#include "\x\bnb_fa\JEF\infantry\configs\cfgUndef.hpp"	
+	
 
 };

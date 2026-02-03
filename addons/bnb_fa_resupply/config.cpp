@@ -39,13 +39,7 @@ class CfgPatches {
 			"BNB_FA_Resupply_Logi_Fuel",
 			"BNB_FA_Resupply_Logi_Repair",
 			"BNB_FA_Resupply_Logi_Ammo",
-			"BNB_FA_Resupply_Logi_RRR",
-			"BNB_FA_Resupply_Arsenal_UK",
-			"BNB_FA_Resupply_Arsenal_Nor",
-			"BNB_FA_Resupply_Arsenal_Bal",
-			"BNB_FA_Resupply_Arsenal_Sta",
-			"BNB_FA_Resupply_Arsenal_Sta"
-
+			"BNB_FA_Resupply_Logi_RRR"
 		};
 		weapons[] = {};
 		magazines[] = {};
@@ -61,8 +55,9 @@ class CfgVehicles {
 	class B_supplyCrate_F;
 	class BNB_FA_Resupply : B_supplyCrate_F {
 		author = "Arend";
+		displayName = "JEF Arsenal Base";
 		vehicleClass = "Ammo";
-		scope = 0;
+		scope = 1;
 		transportMaxWeapons = 9002;
 		transportMaxMagazines = 9002;
 		transportMaxItems = 9002;
@@ -79,11 +74,14 @@ class CfgVehicles {
 		class TransportItems {};
 	};
 	#include "\x\bnb_fa\resupply\configs\cfgBal.hpp"
-	BNB_FA_Resupply_Crates(Bal,JEF Baltic Medical,JEF Baltic Ammo,JEF Baltic Launchers,JEF Baltic Full)
+	BNB_FA_Resupply_Crates(Bal,Baltic)
+	#include "\x\bnb_fa\resupply\undef.hpp"
 	#include "\x\bnb_fa\resupply\configs\cfgNor.hpp"
-	BNB_FA_Resupply_Crates(Nor,JEF Nordic Medical,JEF Nordic Ammo,JEF Nordic Launchers,JEF Nordic Full)
+	BNB_FA_Resupply_Crates(Nor,Nordic)
+	#include "\x\bnb_fa\resupply\undef.hpp"
 	#include "\x\bnb_fa\resupply\configs\cfgUK.hpp"
-	BNB_FA_Resupply_Crates(UK,JEF UK Medical,JEF UK Ammo,JEF UK Launchers,JEF UK Full)
+	BNB_FA_Resupply_Crates(UK,UK)
+	#include "\x\bnb_fa\resupply\undef.hpp"
 
 	class BNB_FA_Resupply_Logi_Fuel : BNB_FA_Resupply {
 		displayName = "JEF Logi Fuel";
@@ -130,41 +128,5 @@ class CfgVehicles {
 		ace_dragging_dragPosition[] = {0, 3, 0};
 		ace_dragging_dragDirection = 270;
 		ace_dragging_carryDirection = 270;
-	};
-	
-	class BNB_FA_Resupply_Arsenal_UK : BNB_FA_Resupply {
-	displayName = "JEF Arsenal UK";
-	scope = 2;
-	class EventHandlers {
-		init = "['UK', _this] call bnb_fa_arsenals_fnc_arsenal;";
-        };
-	};
-		class BNB_FA_Resupply_Arsenal_Nor : BNB_FA_Resupply {
-	displayName = "JEF Arsenal Nordic";
-	scope = 2;
-	class EventHandlers {
-		init = "['Nor', _this] call bnb_fa_arsenals_fnc_arsenal;";
-        };
-	};
-		class BNB_FA_Resupply_Arsenal_Bal : BNB_FA_Resupply {
-	displayName = "JEF Arsenal Baltic";
-	scope = 2;
-	class EventHandlers {
-		init = "['Bal', _this] call bnb_fa_arsenals_fnc_arsenal;";
-        };
-	};
-	class BNB_FA_Resupply_Arsenal_Mis : BNB_FA_Resupply {
-	displayName = "JEF Arsenal Mission";
-	scope = 2;
-	class EventHandlers {
-		init = "['Mis', _this] call bnb_fa_arsenals_fnc_arsenal;";
-        };
-	};
-	class BNB_FA_Resupply_Arsenal_Sta : BNB_FA_Resupply {
-	displayName = "JEF Arsenal Standard";
-	scope = 2;
-	class EventHandlers {
-		init = "['Sta', _this] call bnb_fa_arsenals_fnc_arsenal;";
-        };
 	};
 };

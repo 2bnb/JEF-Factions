@@ -29,15 +29,15 @@ class CfgMarkers{
 class Flag;
 class BNB_FA_Flag_JEF : Flag
 {
-	scope = 1;						// accessibility: 0 = private, 1 = protected, 2 = public
-	name = "Joint Expeditionary Force";			// name used in the Editor and other UIs
-	icon = "\x\bnb_fa\flags\images\JEF_64.paa";		// marker icon
-	texture = "\x\bnb_fa\flags\images\JEF_64.paa";	// ?
-	color[] = { 1, 1, 1, 1 };		// Color used for the icon and text
-	shadow = 0;						// 1 = shadow, 0 = no shadow
-	markerClass = "Flags";	// ?
-	side = 1;						// side ID (0 = OPFOR, 1 = BLUFOR, 2 = INDFOR etc)
-	size = 32;						// default icon size
-	showEditorMarkerColor = 1;		// whether to show icon color in the editor
+	scope = 2;
+	name = "Joint Expeditionary Force";	
+	icon = "\x\bnb_fa\flags\images\JEF_64.paa";
+	texture = "\x\bnb_fa\flags\images\JEF_64.paa";
+	color[] = { 1, 1, 1, 1 };
+	shadow = 0;	
+	markerClass = "Flags";
+	side = 1;
+	size = 32;
+	showEditorMarkerColor = 1;
 };
 };

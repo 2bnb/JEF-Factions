@@ -55,7 +55,11 @@ class CfgWeapons
 	class ItemCore;
 	#include "\x\bnb_fa\JEF\weapons\scopes.hpp"
 	#include "\x\bnb_fa\JEF\weapons\weapons.hpp"
-	
+	#include "\x\bnb_fa\JEF\weapons\jefWeapons.hpp"
+
 };
+
+
+	
 
 #include "\x\bnb_fa\JEF\weapons\CfgMagazines.hpp"

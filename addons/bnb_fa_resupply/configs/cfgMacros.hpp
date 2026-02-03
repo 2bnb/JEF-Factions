@@ -1,16 +1,10 @@
-#define STD_RF_Ammo(c) MAG_XX(##24,c)
-#define ALT_RF_Ammo(c) MAG_XX(a,c)
-#define STD_MX_Ammo(c) MAG_XX(a,c)
-#define STD_MG_Ammo(c) MAG_XX(a,c)
-#define STD_RF_Ammo(c) MAG_XX(a,c)
-
 //These macros turn items and mags into the proper formatting for backpacks
 #define MAG_XX(a,b) class _xx_##a { magazine = a; count = b; }
 #define WEAP_XX(a,b) class _xx_##a { weapon = a; count = b; }
 #define ITEM_XX(a,b) class _xx_##a { name = a; count = b; }
 
-#define BNB_FA_Resupply_Crates(facCode,medName,ammoName,launchName,fullName) class BNB_FA_Resupply_Medical_##facCode : BNB_FA_Resupply {\
-	displayName = #medName ;\
+#define BNB_FA_Resupply_Crates(facCode,facName) class BNB_FA_Resupply_Medical_##facCode : BNB_FA_Resupply {\
+	displayName = JEF Resupply facName Medical;\
 	scope = 2;\
 	class TransportMagazines {\
 		BNB_FA_Gen_Magazines_Medical\
@@ -26,7 +20,7 @@
 	};\
 };\
 class BNB_FA_Resupply_Ammo_##facCode : BNB_FA_Resupply {\
-	displayName = #ammoName ;\
+	displayName = JEF Resupply facName Ammo;\
 	scope = 2;\
 	class TransportMagazines {\
 		BNB_FA_Gen_Magazines_Ammo\
@@ -42,7 +36,7 @@ class BNB_FA_Resupply_Ammo_##facCode : BNB_FA_Resupply {\
 	};\
 };\
 class BNB_FA_Resupply_Launchers_##facCode : BNB_FA_Resupply {\
-	displayName = #launchName;\
+	displayName = JEF Resupply facName Launcher ;\
 	scope = 2;\
 	class TransportMagazines {\
 		BNB_FA_Gen_Magazines_Launchers\
@@ -58,7 +52,7 @@ class BNB_FA_Resupply_Launchers_##facCode : BNB_FA_Resupply {\
 	};\
 };\
 class BNB_FA_Resupply_Full_##facCode : BNB_FA_Resupply {\
-	displayName = #fullName;\
+	displayName = JEF Resupply facName Full;\
 	scope = 2;\
 	class TransportMagazines {\
 		BNB_FA_Gen_Magazines_Launchers\

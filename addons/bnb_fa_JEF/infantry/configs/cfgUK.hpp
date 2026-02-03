@@ -1,61 +1,405 @@
-#define BNB_FA_Mag "UK3CB_BAF_556_30Rnd"
-#define BNB_FA_PistolMag "UK3CB_BAF_9_17Rnd"
+#define BNB_FA_AA_Primary "BNB_FA_Weap_UK_Std",
+#define BNB_FA_AT_Primary "BNB_FA_Weap_UK_Std",
+#define BNB_FA_Crew_Primary "BNB_FA_Weap_UK_Crew",
+#define BNB_FA_EOD_Primary "BNB_FA_Weap_UK_Std",
+#define BNB_FA_GL_Primary "BNB_FA_Weap_UK_GL",
+#define BNB_FA_HAT_Primary "BNB_FA_Weap_UK_Std",
+#define BNB_FA_JFO_Primary "BNB_FA_Weap_UK_GL",
+#define BNB_FA_IC_Primary "BNB_FA_Weap_UK_GL",
+#define BNB_FA_LMG_Primary "BNB_FA_Weap_UK_LMG",
+#define BNB_FA_Marksman_Primary "BNB_FA_Weap_UK_MX",
+#define BNB_FA_Medic_Primary "BNB_FA_Weap_UK_Std",
+#define BNB_FA_Pilot_Primary "BNB_FA_Weap_UK_Crew",
+#define BNB_FA_Rifleman_Primary "BNB_FA_Weap_UK_Std",
 
-#define BNB_FA_Rifle "UK3CB_BAF_L85A3"
-#define BNB_FA_RifleGL "UK3CB_BAF_L85A3_UGL"
-#define BNB_FA_Pistol "UK3CB_BAF_L131A1"
+#define BNB_FA_AA_Pistol "UK3CB_BAF_L131A1",
+#define BNB_FA_AT_Pistol "UK3CB_BAF_L131A1",
+#define BNB_FA_Crew_Pistol "UK3CB_BAF_L131A1",
+#define BNB_FA_EOD_Pistol "ACE_VMM3",
+#define BNB_FA_GL_Pistol "UK3CB_BAF_L131A1",
+#define BNB_FA_HAT_Pistol "UK3CB_BAF_L131A1",
+#define BNB_FA_JFO_Pistol "UK3CB_BAF_L131A1",
+#define BNB_FA_IC_Pistol "UK3CB_BAF_L131A1",
+#define BNB_FA_LMG_Pistol "UK3CB_BAF_L131A1",
+#define BNB_FA_Marksman_Pistol "UK3CB_BAF_L131A1",
+#define BNB_FA_Medic_Pistol "UK3CB_BAF_L131A1",
+#define BNB_FA_Pilot_Pistol "UK3CB_BAF_L131A1",
+#define BNB_FA_Rifleman_Pistol "UK3CB_BAF_L131A1",
 
-#define BNB_FA_Des_Uniform "UK3CB_BAF_U_CombatUniform_DDPM_ShortSleeve"
-#define BNB_FA_Mul_Uniform "UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve"
-#define BNB_FA_Win_Uniform "UK3CB_BAF_U_Smock_Arctic"
-#define BNB_FA_Woo_Uniform "UK3CB_BAF_U_CombatUniform_DPMW_ShortSleeve"
+#define BNB_FA_AA_Launcher "rhs_weap_fim92",
+#define BNB_FA_AT_Launcher "launch_MRAWS_olive_F",
+#define BNB_FA_Crew_Launcher 
+#define BNB_FA_EOD_Launcher
+#define BNB_FA_GL_Launcher 
+#define BNB_FA_HAT_Launcher "rhs_weap_fgm148",
+#define BNB_FA_JFO_Launcher 
+#define BNB_FA_IC_Launcher 
+#define BNB_FA_LMG_Launcher 
+#define BNB_FA_Marksman_Launcher 
+#define BNB_FA_Medic_Launcher 
+#define BNB_FA_Pilot_Launcher 
+#define BNB_FA_Rifleman_Launcher 
 
+#define BNB_FA_AA_Binoculars 
+#define BNB_FA_AT_Binoculars 
+#define BNB_FA_Crew_Binoculars 
+#define BNB_FA_EOD_Binoculars 
+#define BNB_FA_GL_Binoculars 
+#define BNB_FA_HAT_Binoculars 
+#define BNB_FA_JFO_Binoculars "UK3CB_BAF_Soflam_Laserdesignator",
+#define BNB_FA_IC_Binoculars "UK3CB_BAF_Soflam_Laserdesignator",
+#define BNB_FA_LMG_Binoculars 
+#define BNB_FA_Marksman_Binoculars "ACE_Vector",
+#define BNB_FA_Medic_Binoculars 
+#define BNB_FA_Pilot_Binoculars 
+#define BNB_FA_Rifleman_Binoculars 
 
-#define BNB_FA_Des_Helmet "UK3CB_BAF_H_Mk6_DDPM_C"
-#define BNB_FA_Mul_Helmet "UK3CB_BAF_H_Mk7_Camo_A"
-#define BNB_FA_Win_Helmet "UK3CB_BAF_H_Mk7_Win_A"
-#define BNB_FA_Woo_Helmet "UK3CB_BAF_H_Mk6_DPMW_C"
+#define BNB_FA_AA_PrimaryMag UK3CB_BAF_556_30Rnd
+#define BNB_FA_AT_PrimaryMag UK3CB_BAF_556_30Rnd
+#define BNB_FA_Crew_PrimaryMag UK3CB_BAF_556_30Rnd
+#define BNB_FA_EOD_PrimaryMag UK3CB_BAF_556_30Rnd
+#define BNB_FA_GL_PrimaryMag UK3CB_BAF_556_30Rnd
+#define BNB_FA_HAT_PrimaryMag UK3CB_BAF_556_30Rnd
+#define BNB_FA_JFO_PrimaryMag UK3CB_BAF_556_30Rnd
+#define BNB_FA_IC_PrimaryMag UK3CB_BAF_556_30Rnd
+#define BNB_FA_LMG_PrimaryMag UK3CB_BAF_556_200Rnd
+#define BNB_FA_Marksman_PrimaryMag UK3CB_BAF_762_L42A1_20Rnd
+#define BNB_FA_Medic_PrimaryMag UK3CB_BAF_556_30Rnd
+#define BNB_FA_Pilot_PrimaryMag UK3CB_BAF_556_30Rnd
+#define BNB_FA_Rifleman_PrimaryMag UK3CB_BAF_556_30Rnd
 
+#define BNB_FA_AA_PistolMag UK3CB_BAF_9_17Rnd
+#define BNB_FA_AT_PistolMag UK3CB_BAF_9_17Rnd
+#define BNB_FA_Crew_PistolMag UK3CB_BAF_9_17Rnd
+#define BNB_FA_EOD_PistolMag 
+#define BNB_FA_GL_PistolMag UK3CB_BAF_9_17Rnd
+#define BNB_FA_HAT_PistolMag UK3CB_BAF_9_17Rnd
+#define BNB_FA_JFO_PistolMag UK3CB_BAF_9_17Rnd
+#define BNB_FA_IC_PistolMag UK3CB_BAF_9_17Rnd
+#define BNB_FA_LMG_PistolMag UK3CB_BAF_9_17Rnd
+#define BNB_FA_Marksman_PistolMag UK3CB_BAF_9_17Rnd
+#define BNB_FA_Medic_PistolMag UK3CB_BAF_9_17Rnd
+#define BNB_FA_Pilot_PistolMag UK3CB_BAF_9_17Rnd
+#define BNB_FA_Rifleman_PistolMag UK3CB_BAF_9_17Rnd
 
-#define BNB_FA_Des_Vest "UK3CB_BAF_V_Osprey_DDPM6"
-#define BNB_FA_Mul_Vest "UK3CB_BAF_V_Osprey_Rifleman_B"
-#define BNB_FA_Win_Vest "UK3CB_BAF_V_Osprey_Winter"
-#define BNB_FA_Woo_Vest "UK3CB_BAF_V_Osprey_DPMW6"
+#define BNB_FA_AA_LauncherRound rhs_fim92_mag
+#define BNB_FA_AT_LauncherRound MRAWS_HEAT_F
+#define BNB_FA_Crew_LauncherRound 
+#define BNB_FA_EOD_LauncherRound 
+#define BNB_FA_GL_LauncherRound 
+#define BNB_FA_HAT_LauncherRound rhs_fgm148_magazine_AT
+#define BNB_FA_JFO_LauncherRound 
+#define BNB_FA_IC_LauncherRound 
+#define BNB_FA_LMG_LauncherRound 
+#define BNB_FA_Marksman_LauncherRound 
+#define BNB_FA_Medic_LauncherRound 
+#define BNB_FA_Pilot_LauncherRound 
+#define BNB_FA_Rifleman_LauncherRound 
 
+#define BNB_FA_AA_GLRound 
+#define BNB_FA_AT_GLRound 
+#define BNB_FA_Crew_GLRound 
+#define BNB_FA_EOD_GLRound 
+#define BNB_FA_GL_GLRound rhs_mag_M441_HE
+#define BNB_FA_HAT_GLRound 
+#define BNB_FA_JFO_GLRound 1Rnd_Smoke_Grenade_shell
+#define BNB_FA_IC_GLRound rhs_mag_M441_HE
+#define BNB_FA_LMG_GLRound 
+#define BNB_FA_Marksman_GLRound 
+#define BNB_FA_Medic_GLRound 
+#define BNB_FA_Pilot_GLRound 
+#define BNB_FA_Rifleman_GLRound 
 
+#define BNB_FA_AA_Des_Uniform "UK3CB_BAF_U_CombatUniform_DDPM_ShortSleeve"
+#define BNB_FA_AT_Des_Uniform "UK3CB_BAF_U_CombatUniform_DDPM_ShortSleeve"
+#define BNB_FA_Crew_Des_Uniform "UK3CB_BAF_U_CombatUniform_DDPM_ShortSleeve"
+#define BNB_FA_EOD_Des_Uniform "UK3CB_BAF_U_CombatUniform_DDPM_ShortSleeve"
+#define BNB_FA_GL_Des_Uniform "UK3CB_BAF_U_CombatUniform_DDPM_ShortSleeve"
+#define BNB_FA_HAT_Des_Uniform "UK3CB_BAF_U_CombatUniform_DDPM_ShortSleeve"
+#define BNB_FA_JFO_Des_Uniform "UK3CB_BAF_U_CombatUniform_DDPM_ShortSleeve"
+#define BNB_FA_IC_Des_Uniform "UK3CB_BAF_U_CombatUniform_DDPM_ShortSleeve"
+#define BNB_FA_LMG_Des_Uniform "UK3CB_BAF_U_CombatUniform_DDPM_ShortSleeve"
+#define BNB_FA_Marksman_Des_Uniform "UK3CB_BAF_U_CombatUniform_DDPM_ShortSleeve"
+#define BNB_FA_Medic_Des_Uniform "UK3CB_BAF_U_CombatUniform_DDPM_ShortSleeve"
+#define BNB_FA_Pilot_Des_Uniform "UK3CB_BAF_U_HeliPilotCoveralls_RAF"
+#define BNB_FA_Rifleman_Des_Uniform "UK3CB_BAF_U_CombatUniform_DDPM_ShortSleeve"
 
-// Backpacks should not be in quotation marks!
-#define BNB_FA_Des_Backpack UK3CB_BAF_B_Bergen_DDPM_Rifleman_A
-#define BNB_FA_Mul_Backpack UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B
-#define BNB_FA_Woo_Backpack UK3CB_BAF_B_Bergen_DPMW_Rifleman_A
-#define BNB_FA_Win_Backpack UK3CB_BAF_B_Bergen_Arctic_Rifleman_A
-#define BNB_FA_Des_Backpack_Medic UK3CB_BAF_B_Bergen_DDPM_Rifleman_B
-#define BNB_FA_Mul_Backpack_Medic UK3CB_BAF_B_Bergen_MTP_Medic_L_B
-#define BNB_FA_Woo_Backpack_Medic UK3CB_BAF_B_Bergen_DPMW_Rifleman_B
-#define BNB_FA_Win_Backpack_Medic UK3CB_BAF_B_Bergen_Arctic_Rifleman_B
-#define BNB_FA_Des_Backpack_IC UK3CB_BAF_B_Bergen_DDPM_JTAC_H_A
-#define BNB_FA_Mul_Backpack_IC UK3CB_BAF_B_Bergen_MTP_JTAC_H_A
-#define BNB_FA_Woo_Backpack_IC UK3CB_BAF_B_Bergen_DPMW_JTAC_H_A
-#define BNB_FA_Win_Backpack_IC UK3CB_BAF_B_Bergen_Arctic_JTAC_A
+#define BNB_FA_AA_Mul_Uniform "UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve"
+#define BNB_FA_AT_Mul_Uniform "UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve"
+#define BNB_FA_Crew_Mul_Uniform "UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve"
+#define BNB_FA_EOD_Mul_Uniform "UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve"
+#define BNB_FA_GL_Mul_Uniform "UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve"
+#define BNB_FA_HAT_Mul_Uniform "UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve"
+#define BNB_FA_JFO_Mul_Uniform "UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve"
+#define BNB_FA_IC_Mul_Uniform "UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve"
+#define BNB_FA_LMG_Mul_Uniform "UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve"
+#define BNB_FA_Marksman_Mul_Uniform "UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve"
+#define BNB_FA_Medic_Mul_Uniform "UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve"
+#define BNB_FA_Pilot_Mul_Uniform "UK3CB_BAF_U_HeliPilotCoveralls_RAF"
+#define BNB_FA_Rifleman_Mul_Uniform "UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve"
 
-#define BNB_FA_UK_Classes class BNB_FA_Des_Backpack##;\
-	class BNB_FA_Mul_Backpack##;\
-	class BNB_FA_Woo_Backpack##;\
-	class BNB_FA_Win_Backpack##;\
-	class BNB_FA_Des_Backpack_Medic##;\
-	class BNB_FA_Mul_Backpack_Medic##;\
-	class BNB_FA_Woo_Backpack_Medic##;\
-	class BNB_FA_Win_Backpack_Medic##;\
-	class BNB_FA_Des_Backpack_IC##;\
-	class BNB_FA_Mul_Backpack_IC##;\
-	class BNB_FA_Woo_Backpack_IC##;\
-	class BNB_FA_Win_Backpack_IC##;
+#define BNB_FA_AA_Win_Uniform "UK3CB_BAF_U_Smock_Arctic"
+#define BNB_FA_AT_Win_Uniform "UK3CB_BAF_U_Smock_Arctic"
+#define BNB_FA_Crew_Win_Uniform "UK3CB_BAF_U_Smock_Arctic"
+#define BNB_FA_EOD_Win_Uniform "UK3CB_BAF_U_Smock_Arctic"
+#define BNB_FA_GL_Win_Uniform "UK3CB_BAF_U_Smock_Arctic"
+#define BNB_FA_HAT_Win_Uniform "UK3CB_BAF_U_Smock_Arctic"
+#define BNB_FA_JFO_Win_Uniform "UK3CB_BAF_U_Smock_Arctic"
+#define BNB_FA_IC_Win_Uniform "UK3CB_BAF_U_Smock_Arctic"
+#define BNB_FA_LMG_Win_Uniform "UK3CB_BAF_U_Smock_Arctic"
+#define BNB_FA_Marksman_Win_Uniform "UK3CB_BAF_U_Smock_Arctic"
+#define BNB_FA_Medic_Win_Uniform "UK3CB_BAF_U_Smock_Arctic"
+#define BNB_FA_Pilot_Win_Uniform "UK3CB_BAF_U_HeliPilotCoveralls_RAF"
+#define BNB_FA_Rifleman_Win_Uniform "UK3CB_BAF_U_Smock_Arctic"
 
+#define BNB_FA_AA_Woo_Uniform "UK3CB_BAF_U_CombatUniform_DPMW_ShortSleeve"
+#define BNB_FA_AT_Woo_Uniform "UK3CB_BAF_U_CombatUniform_DPMW_ShortSleeve"
+#define BNB_FA_Crew_Woo_Uniform "UK3CB_BAF_U_CombatUniform_DPMW_ShortSleeve"
+#define BNB_FA_EOD_Woo_Uniform "UK3CB_BAF_U_CombatUniform_DPMW_ShortSleeve"
+#define BNB_FA_GL_Woo_Uniform "UK3CB_BAF_U_CombatUniform_DPMW_ShortSleeve"
+#define BNB_FA_HAT_Woo_Uniform "UK3CB_BAF_U_CombatUniform_DPMW_ShortSleeve"
+#define BNB_FA_JFO_Woo_Uniform "UK3CB_BAF_U_CombatUniform_DPMW_ShortSleeve"
+#define BNB_FA_IC_Woo_Uniform "UK3CB_BAF_U_CombatUniform_DPMW_ShortSleeve"
+#define BNB_FA_LMG_Woo_Uniform "UK3CB_BAF_U_CombatUniform_DPMW_ShortSleeve"
+#define BNB_FA_Marksman_Woo_Uniform "UK3CB_BAF_U_CombatUniform_DPMW_ShortSleeve"
+#define BNB_FA_Medic_Woo_Uniform "UK3CB_BAF_U_CombatUniform_DPMW_ShortSleeve"
+#define BNB_FA_Pilot_Woo_Uniform "UK3CB_BAF_U_HeliPilotCoveralls_RAF"
+#define BNB_FA_Rifleman_Woo_Uniform "UK3CB_BAF_U_CombatUniform_DPMW_ShortSleeve"
 
-#define BNB_FA_TransportMagazines 
-#define BNB_FA_TransportMagazines_IC
-#define BNB_FA_TransportMagazines_Medic 
+#define BNB_FA_AA_Des_Helmet "UK3CB_BAF_H_Mk6_DDPM_C",
+#define BNB_FA_AT_Des_Helmet "UK3CB_BAF_H_Mk6_DDPM_C",
+#define BNB_FA_Crew_Des_Helmet "UK3CB_BAF_H_CrewHelmet_DDPM_ESS_A",
+#define BNB_FA_EOD_Des_Helmet "UK3CB_BAF_H_Mk6_DDPM_C",
+#define BNB_FA_GL_Des_Helmet "UK3CB_BAF_H_Mk6_DDPM_C",
+#define BNB_FA_HAT_Des_Helmet "UK3CB_BAF_H_Mk6_DDPM_C",
+#define BNB_FA_JFO_Des_Helmet "UK3CB_BAF_H_Mk6_DDPM_C",
+#define BNB_FA_IC_Des_Helmet "UK3CB_BAF_H_Mk6_DDPM_C",
+#define BNB_FA_LMG_Des_Helmet "UK3CB_BAF_H_Mk6_DDPM_C",
+#define BNB_FA_Marksman_Des_Helmet "UK3CB_BAF_H_Mk6_DDPM_C",
+#define BNB_FA_Medic_Des_Helmet "UK3CB_BAF_H_Mk6_DDPM_C",
+#define BNB_FA_Pilot_Des_Helmet "UK3CB_BAF_H_PilotHelmetHeli_A",
+#define BNB_FA_Rifleman_Des_Helmet "UK3CB_BAF_H_Mk6_DDPM_C",
 
-#define BNB_FA_Magazines BNB_FA_Gen_Magazines , BNB_FA_PistolMag , BNB_FA_PistolMag, BNB_FA_Gen_Smoke , BNB_FA_Gen_Smoke, BNB_FA_Gen_Frag
-#define BNB_FA_Magazines_IC BNB_FA_Gen_Magazines , BNB_FA_PistolMag , BNB_FA_PistolMag, BNB_FA_Gen_Smoke , BNB_FA_Gen_Smoke, BNB_FA_Gen_Frag , BNB_FA_Gen_GL
-#define BNB_FA_Magazines_Medic BNB_FA_Gen_Magazines , BNB_FA_PistolMag , BNB_FA_PistolMag, BNB_FA_Gen_Smoke , BNB_FA_Gen_Smoke, BNB_FA_Gen_Frag
+#define BNB_FA_AA_Mul_Helmet "UK3CB_BAF_H_Mk7_Camo_A",
+#define BNB_FA_AT_Mul_Helmet "UK3CB_BAF_H_Mk7_Camo_A",
+#define BNB_FA_Crew_Mul_Helmet "UK3CB_BAF_H_CrewHelmet_ESS_A",
+#define BNB_FA_EOD_Mul_Helmet "UK3CB_BAF_H_Mk7_Camo_A",
+#define BNB_FA_GL_Mul_Helmet "UK3CB_BAF_H_Mk7_Camo_A",
+#define BNB_FA_HAT_Mul_Helmet "UK3CB_BAF_H_Mk7_Camo_A",
+#define BNB_FA_JFO_Mul_Helmet "UK3CB_BAF_H_Mk7_Camo_A",
+#define BNB_FA_IC_Mul_Helmet "UK3CB_BAF_H_Mk7_Camo_A",
+#define BNB_FA_LMG_Mul_Helmet "UK3CB_BAF_H_Mk7_Camo_A",
+#define BNB_FA_Marksman_Mul_Helmet "UK3CB_BAF_H_Mk7_Camo_A",
+#define BNB_FA_Medic_Mul_Helmet "UK3CB_BAF_H_Mk7_Camo_A",
+#define BNB_FA_Pilot_Mul_Helmet "UK3CB_BAF_H_PilotHelmetHeli_A",
+#define BNB_FA_Rifleman_Mul_Helmet "UK3CB_BAF_H_Mk7_Camo_A",
+
+#define BNB_FA_AA_Win_Helmet "UK3CB_BAF_H_Mk7_Win_A",
+#define BNB_FA_AT_Win_Helmet "UK3CB_BAF_H_Mk7_Win_A",
+#define BNB_FA_Crew_Win_Helmet "UK3CB_BAF_H_CrewHelmet_B",
+#define BNB_FA_EOD_Win_Helmet "UK3CB_BAF_H_Mk7_Win_A",
+#define BNB_FA_GL_Win_Helmet "UK3CB_BAF_H_Mk7_Win_A",
+#define BNB_FA_HAT_Win_Helmet "UK3CB_BAF_H_Mk7_Win_A",
+#define BNB_FA_JFO_Win_Helmet "UK3CB_BAF_H_Mk7_Win_A",
+#define BNB_FA_IC_Win_Helmet "UK3CB_BAF_H_Mk7_Win_A",
+#define BNB_FA_LMG_Win_Helmet "UK3CB_BAF_H_Mk7_Win_A",
+#define BNB_FA_Marksman_Win_Helmet "UK3CB_BAF_H_Mk7_Win_A",
+#define BNB_FA_Medic_Win_Helmet "UK3CB_BAF_H_Mk7_Win_A",
+#define BNB_FA_Pilot_Win_Helmet "UK3CB_BAF_H_PilotHelmetHeli_A",
+#define BNB_FA_Rifleman_Win_Helmet "UK3CB_BAF_H_Mk7_Win_A",
+
+#define BNB_FA_AA_Woo_Helmet "UK3CB_BAF_H_Mk6_DPMW_C",
+#define BNB_FA_AT_Woo_Helmet "UK3CB_BAF_H_Mk6_DPMW_C",
+#define BNB_FA_Crew_Woo_Helmet "UK3CB_BAF_H_CrewHelmet_DPMW_ESS_A",
+#define BNB_FA_EOD_Woo_Helmet "UK3CB_BAF_H_Mk6_DPMW_C",
+#define BNB_FA_GL_Woo_Helmet "UK3CB_BAF_H_Mk6_DPMW_C",
+#define BNB_FA_HAT_Woo_Helmet "UK3CB_BAF_H_Mk6_DPMW_C",
+#define BNB_FA_JFO_Woo_Helmet "UK3CB_BAF_H_Mk6_DPMW_C",
+#define BNB_FA_IC_Woo_Helmet "UK3CB_BAF_H_Mk6_DPMW_C",
+#define BNB_FA_LMG_Woo_Helmet "UK3CB_BAF_H_Mk6_DPMW_C",
+#define BNB_FA_Marksman_Woo_Helmet "UK3CB_BAF_H_Mk6_DPMW_C",
+#define BNB_FA_Medic_Woo_Helmet "UK3CB_BAF_H_Mk6_DPMW_C",
+#define BNB_FA_Pilot_Woo_Helmet "UK3CB_BAF_H_PilotHelmetHeli_A",
+#define BNB_FA_Rifleman_Woo_Helmet "UK3CB_BAF_H_Mk6_DPMW_C",
+
+#define BNB_FA_AA_Des_Vest "UK3CB_BAF_V_Osprey_DDPM6",
+#define BNB_FA_AT_Des_Vest "UK3CB_BAF_V_Osprey_DDPM6",
+#define BNB_FA_Crew_Des_Vest "UK3CB_BAF_V_Osprey_DDPM6",
+#define BNB_FA_EOD_Des_Vest "UK3CB_BAF_V_Osprey_DDPM6",
+#define BNB_FA_GL_Des_Vest "UK3CB_BAF_V_Osprey_DDPM6",
+#define BNB_FA_HAT_Des_Vest "UK3CB_BAF_V_Osprey_DDPM6",
+#define BNB_FA_JFO_Des_Vest "UK3CB_BAF_V_Osprey_DDPM6",
+#define BNB_FA_IC_Des_Vest "UK3CB_BAF_V_Osprey_DDPM6",
+#define BNB_FA_LMG_Des_Vest "UK3CB_BAF_V_Osprey_DDPM6",
+#define BNB_FA_Marksman_Des_Vest "UK3CB_BAF_V_Osprey_DDPM6",
+#define BNB_FA_Medic_Des_Vest "UK3CB_BAF_V_Osprey_DDPM6",
+#define BNB_FA_Pilot_Des_Vest 
+#define BNB_FA_Rifleman_Des_Vest "UK3CB_BAF_V_Osprey_DDPM6",
+
+#define BNB_FA_AA_Mul_Vest "UK3CB_BAF_V_Osprey_Rifleman_B",
+#define BNB_FA_AT_Mul_Vest "UK3CB_BAF_V_Osprey_Rifleman_B",
+#define BNB_FA_Crew_Mul_Vest "UK3CB_BAF_V_Osprey_Rifleman_B",
+#define BNB_FA_EOD_Mul_Vest "UK3CB_BAF_V_Osprey_Rifleman_B",
+#define BNB_FA_GL_Mul_Vest "UK3CB_BAF_V_Osprey_Rifleman_B",
+#define BNB_FA_HAT_Mul_Vest "UK3CB_BAF_V_Osprey_Rifleman_B",
+#define BNB_FA_JFO_Mul_Vest "UK3CB_BAF_V_Osprey_Rifleman_B",
+#define BNB_FA_IC_Mul_Vest "UK3CB_BAF_V_Osprey_Rifleman_B",
+#define BNB_FA_LMG_Mul_Vest "UK3CB_BAF_V_Osprey_Rifleman_B",
+#define BNB_FA_Marksman_Mul_Vest "UK3CB_BAF_V_Osprey_Rifleman_B",
+#define BNB_FA_Medic_Mul_Vest "UK3CB_BAF_V_Osprey_Rifleman_B",
+#define BNB_FA_Pilot_Mul_Vest "UK3CB_BAF_V_Osprey_Rifleman_B",
+#define BNB_FA_Rifleman_Mul_Vest "UK3CB_BAF_V_Osprey_Rifleman_B",
+
+#define BNB_FA_AA_Win_Vest "UK3CB_BAF_V_Osprey_Winter",
+#define BNB_FA_AT_Win_Vest "UK3CB_BAF_V_Osprey_Winter",
+#define BNB_FA_Crew_Win_Vest "UK3CB_BAF_V_Osprey_Winter",
+#define BNB_FA_EOD_Win_Vest "UK3CB_BAF_V_Osprey_Winter",
+#define BNB_FA_GL_Win_Vest "UK3CB_BAF_V_Osprey_Winter",
+#define BNB_FA_HAT_Win_Vest "UK3CB_BAF_V_Osprey_Winter",
+#define BNB_FA_JFO_Win_Vest "UK3CB_BAF_V_Osprey_Winter",
+#define BNB_FA_IC_Win_Vest "UK3CB_BAF_V_Osprey_Winter",
+#define BNB_FA_LMG_Win_Vest "UK3CB_BAF_V_Osprey_Winter",
+#define BNB_FA_Marksman_Win_Vest "UK3CB_BAF_V_Osprey_Winter",
+#define BNB_FA_Medic_Win_Vest "UK3CB_BAF_V_Osprey_Winter",
+#define BNB_FA_Pilot_Win_Vest 
+#define BNB_FA_Rifleman_Win_Vest "UK3CB_BAF_V_Osprey_Winter",
+
+#define BNB_FA_AA_Woo_Vest "UK3CB_BAF_V_Osprey_DPMW6",
+#define BNB_FA_AT_Woo_Vest "UK3CB_BAF_V_Osprey_DPMW6",
+#define BNB_FA_Crew_Woo_Vest "UK3CB_BAF_V_Osprey_DPMW6",
+#define BNB_FA_EOD_Woo_Vest "UK3CB_BAF_V_Osprey_DPMW6",
+#define BNB_FA_GL_Woo_Vest "UK3CB_BAF_V_Osprey_DPMW6",
+#define BNB_FA_HAT_Woo_Vest "UK3CB_BAF_V_Osprey_DPMW6",
+#define BNB_FA_JFO_Woo_Vest "UK3CB_BAF_V_Osprey_DPMW6",
+#define BNB_FA_IC_Woo_Vest "UK3CB_BAF_V_Osprey_DPMW6",
+#define BNB_FA_LMG_Woo_Vest "UK3CB_BAF_V_Osprey_DPMW6",
+#define BNB_FA_Marksman_Woo_Vest "UK3CB_BAF_V_Osprey_DPMW6",
+#define BNB_FA_Medic_Woo_Vest "UK3CB_BAF_V_Osprey_DPMW6",
+#define BNB_FA_Pilot_Woo_Vest 
+#define BNB_FA_Rifleman_Woo_Vest "UK3CB_BAF_V_Osprey_DPMW6",
+
+#define BNB_FA_AA_Items 
+#define BNB_FA_AT_Items 
+#define BNB_FA_Crew_Items 
+#define BNB_FA_EOD_Items 
+#define BNB_FA_GL_Items 
+#define BNB_FA_HAT_Items 
+#define BNB_FA_JFO_Items 
+#define BNB_FA_IC_Items 
+#define BNB_FA_LMG_Items 
+#define BNB_FA_Marksman_Items 
+#define BNB_FA_Medic_Items 
+#define BNB_FA_Pilot_Items 
+#define BNB_FA_Rifleman_Items 
+
+#define BNB_FA_AA_Des_Pack UK3CB_BAF_B_Bergen_DDPM_Rifleman_A
+#define BNB_FA_AT_Des_Pack UK3CB_BAF_B_Bergen_DDPM_Rifleman_A
+#define BNB_FA_Crew_Des_Pack UK3CB_BAF_B_Bergen_DDPM_JTAC_H_A
+#define BNB_FA_EOD_Des_Pack UK3CB_BAF_B_Bergen_DDPM_Rifleman_A
+#define BNB_FA_GL_Des_Pack UK3CB_BAF_B_Bergen_DDPM_Rifleman_A
+#define BNB_FA_HAT_Des_Pack UK3CB_BAF_B_Bergen_DDPM_Rifleman_A
+#define BNB_FA_JFO_Des_Pack UK3CB_BAF_B_Bergen_DDPM_JTAC_H_A
+#define BNB_FA_IC_Des_Pack UK3CB_BAF_B_Bergen_DDPM_JTAC_H_A
+#define BNB_FA_LMG_Des_Pack UK3CB_BAF_B_Bergen_DDPM_Rifleman_A
+#define BNB_FA_Marksman_Des_Pack UK3CB_BAF_B_Bergen_DDPM_Rifleman_A
+#define BNB_FA_Medic_Des_Pack UK3CB_BAF_B_Bergen_DDPM_Rifleman_A
+#define BNB_FA_Pilot_Des_Pack UK3CB_BAF_B_Bergen_DDPM_JTAC_H_A
+#define BNB_FA_Rifleman_Des_Pack UK3CB_BAF_B_Bergen_DDPM_Rifleman_A
+
+#define BNB_FA_AA_Mul_Pack UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B
+#define BNB_FA_AT_Mul_Pack UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B
+#define BNB_FA_Crew_Mul_Pack UK3CB_BAF_B_Bergen_MTP_JTAC_H_A
+#define BNB_FA_EOD_Mul_Pack UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B
+#define BNB_FA_GL_Mul_Pack UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B
+#define BNB_FA_HAT_Mul_Pack UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B
+#define BNB_FA_JFO_Mul_Pack UK3CB_BAF_B_Bergen_MTP_JTAC_H_A
+#define BNB_FA_IC_Mul_Pack UK3CB_BAF_B_Bergen_MTP_JTAC_H_A
+#define BNB_FA_LMG_Mul_Pack UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B
+#define BNB_FA_Marksman_Mul_Pack UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B
+#define BNB_FA_Medic_Mul_Pack UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B
+#define BNB_FA_Pilot_Mul_Pack UK3CB_BAF_B_Bergen_MTP_JTAC_H_A
+#define BNB_FA_Rifleman_Mul_Pack UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B
+
+#define BNB_FA_AA_Win_Pack UK3CB_BAF_B_Bergen_Arctic_Rifleman_A
+#define BNB_FA_AT_Win_Pack UK3CB_BAF_B_Bergen_Arctic_Rifleman_A
+#define BNB_FA_Crew_Win_Pack UK3CB_BAF_B_Bergen_Arctic_Rifleman_A
+#define BNB_FA_EOD_Win_Pack UK3CB_BAF_B_Bergen_Arctic_JTAC_A
+#define BNB_FA_GL_Win_Pack UK3CB_BAF_B_Bergen_Arctic_Rifleman_A
+#define BNB_FA_HAT_Win_Pack UK3CB_BAF_B_Bergen_Arctic_Rifleman_A
+#define BNB_FA_JFO_Win_Pack UK3CB_BAF_B_Bergen_Arctic_JTAC_A
+#define BNB_FA_IC_Win_Pack UK3CB_BAF_B_Bergen_Arctic_JTAC_A
+#define BNB_FA_LMG_Win_Pack UK3CB_BAF_B_Bergen_Arctic_Rifleman_A
+#define BNB_FA_Marksman_Win_Pack UK3CB_BAF_B_Bergen_Arctic_Rifleman_A
+#define BNB_FA_Medic_Win_Pack UK3CB_BAF_B_Bergen_Arctic_Rifleman_A
+#define BNB_FA_Pilot_Win_Pack UK3CB_BAF_B_Bergen_Arctic_JTAC_A
+#define BNB_FA_Rifleman_Win_Pack UK3CB_BAF_B_Bergen_Arctic_Rifleman_A
+
+#define BNB_FA_AA_Woo_Pack UK3CB_BAF_B_Bergen_DPMW_Rifleman_A
+#define BNB_FA_AT_Woo_Pack UK3CB_BAF_B_Bergen_DPMW_Rifleman_A
+#define BNB_FA_Crew_Woo_Pack UK3CB_BAF_B_Bergen_DPMW_JTAC_H_A
+#define BNB_FA_EOD_Woo_Pack UK3CB_BAF_B_Bergen_DPMW_Rifleman_A
+#define BNB_FA_GL_Woo_Pack UK3CB_BAF_B_Bergen_DPMW_Rifleman_A
+#define BNB_FA_HAT_Woo_Pack UK3CB_BAF_B_Bergen_DPMW_Rifleman_A
+#define BNB_FA_JFO_Woo_Pack UK3CB_BAF_B_Bergen_DPMW_JTAC_H_A
+#define BNB_FA_IC_Woo_Pack UK3CB_BAF_B_Bergen_DPMW_JTAC_H_A
+#define BNB_FA_LMG_Woo_Pack UK3CB_BAF_B_Bergen_DPMW_Rifleman_A
+#define BNB_FA_Marksman_Woo_Pack UK3CB_BAF_B_Bergen_DPMW_Rifleman_A
+#define BNB_FA_Medic_Woo_Pack UK3CB_BAF_B_Bergen_DPMW_Rifleman_A
+#define BNB_FA_Pilot_Woo_Pack UK3CB_BAF_B_Bergen_DPMW_JTAC_H_A
+#define BNB_FA_Rifleman_Woo_Pack UK3CB_BAF_B_Bergen_DPMW_Rifleman_A
+
+#define BNB_FA_AA_TransportMagazines 
+#define BNB_FA_AT_TransportMagazines 
+#define BNB_FA_Crew_TransportMagazines 
+#define BNB_FA_EOD_TransportMagazines 
+#define BNB_FA_GL_TransportMagazines 
+#define BNB_FA_HAT_TransportMagazines 
+#define BNB_FA_JFO_TransportMagazines 
+#define BNB_FA_IC_TransportMagazines 
+#define BNB_FA_LMG_TransportMagazines 
+#define BNB_FA_Marksman_TransportMagazines 
+#define BNB_FA_Medic_TransportMagazines 
+#define BNB_FA_Pilot_TransportMagazines 
+#define BNB_FA_Rifleman_TransportMagazines 
+
+#define BNB_FA_AA_TransportItems 
+#define BNB_FA_AT_TransportItems 
+#define BNB_FA_Crew_TransportItems 
+#define BNB_FA_EOD_TransportItems 
+#define BNB_FA_GL_TransportItems 
+#define BNB_FA_HAT_TransportItems 
+#define BNB_FA_JFO_TransportItems 
+#define BNB_FA_IC_TransportItems 
+#define BNB_FA_LMG_TransportItems 
+#define BNB_FA_Marksman_TransportItems 
+#define BNB_FA_Medic_TransportItems 
+#define BNB_FA_Pilot_TransportItems 
+#define BNB_FA_Rifleman_TransportItems 
+
+#define BNB_FA_AA_TransportWeapons 
+#define BNB_FA_AT_TransportWeapons 
+#define BNB_FA_Crew_TransportWeapons 
+#define BNB_FA_EOD_TransportWeapons 
+#define BNB_FA_GL_TransportWeapons 
+#define BNB_FA_HAT_TransportWeapons 
+#define BNB_FA_JFO_TransportWeapons 
+#define BNB_FA_IC_TransportWeapons 
+#define BNB_FA_LMG_TransportWeapons 
+#define BNB_FA_Marksman_TransportWeapons 
+#define BNB_FA_Medic_TransportWeapons 
+#define BNB_FA_Pilot_TransportWeapons 
+#define BNB_FA_Rifleman_TransportWeapons 
+
+#define BNB_FA_AA_Magazines 
+#define BNB_FA_AT_Magazines 
+#define BNB_FA_Crew_Magazines 
+#define BNB_FA_EOD_Magazines 
+#define BNB_FA_GL_Magazines 
+#define BNB_FA_HAT_Magazines 
+#define BNB_FA_JFO_Magazines 
+#define BNB_FA_IC_Magazines 
+#define BNB_FA_LMG_Magazines 
+#define BNB_FA_Marksman_Magazines 
+#define BNB_FA_Medic_Magazines 
+#define BNB_FA_Pilot_Magazines 
+#define BNB_FA_Rifleman_Magazines 
